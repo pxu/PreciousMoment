@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E18D7A7168EEDDD00560787 /* PreciousMoment.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 1E18D7A6168EEDDD00560787 /* PreciousMoment.entitlements */; };
 		6802A36F152BD7F50048C2A0 /* BWApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 6802A348152BD7F50048C2A0 /* BWApp.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		6802A370152BD7F50048C2A0 /* BWGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 6802A34A152BD7F50048C2A0 /* BWGlobal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		6802A371152BD7F50048C2A0 /* BWHockeyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6802A34C152BD7F50048C2A0 /* BWHockeyManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -107,6 +108,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E18D7A6168EEDDD00560787 /* PreciousMoment.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PreciousMoment.entitlements; sourceTree = "<group>"; };
 		6802A347152BD7F50048C2A0 /* BWApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWApp.h; sourceTree = "<group>"; };
 		6802A348152BD7F50048C2A0 /* BWApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWApp.m; sourceTree = "<group>"; };
 		6802A349152BD7F50048C2A0 /* BWGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWGlobal.h; sourceTree = "<group>"; };
@@ -138,7 +140,6 @@
 		6802A364152BD7F50048C2A0 /* Hockey.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Hockey.bundle; sourceTree = "<group>"; };
 		6802A365152BD7F50048C2A0 /* Quincy.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Quincy.bundle; sourceTree = "<group>"; };
 		6802A36B152BD7F50048C2A0 /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CrashReporter.framework; sourceTree = "<group>"; };
-		681DB3BC145314CE00DF0849 /* PhotoWheel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PhotoWheel.entitlements; sourceTree = "<group>"; };
 		681DB3CE1453334600DF0849 /* SlideShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideShowViewController.h; sourceTree = "<group>"; };
 		681DB3CF1453334600DF0849 /* SlideShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideShowViewController.m; sourceTree = "<group>"; };
 		681DB3D21453335D00DF0849 /* MainSlideShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainSlideShowViewController.h; sourceTree = "<group>"; };
@@ -439,7 +440,7 @@
 		68FA6ADB13EEF3BB00E046BD /* PreciousMoment */ = {
 			isa = PBXGroup;
 			children = (
-				681DB3BC145314CE00DF0849 /* PhotoWheel.entitlements */,
+				1E18D7A6168EEDDD00560787 /* PreciousMoment.entitlements */,
 				68FA6AE413EEF3BB00E046BD /* AppDelegate.h */,
 				68FA6AE513EEF3BB00E046BD /* AppDelegate.m */,
 				689194961471704100F6B58E /* AppKeys.h */,
@@ -613,6 +614,7 @@
 				68B7C445156975AD009371AB /* defaultPhoto@2x.png in Resources */,
 				68B7C448156975B6009371AB /* addphoto@2x.png in Resources */,
 				68B7C44A15697808009371AB /* PhotoWheelAboutIcon@2x.png in Resources */,
+				1E18D7A7168EEDDD00560787 /* PreciousMoment.entitlements in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,7 +709,7 @@
 			buildSettings = {
 				BUNDLE_DISPLAY_NAME = PreciousMoment;
 				BUNDLE_IDENTIFIER = com.ccn.PreciousMoment;
-				CODE_SIGN_ENTITLEMENTS = PhotoWheel/PhotoWheel.entitlements;
+				CODE_SIGN_ENTITLEMENTS = PhotoWheel/PreciousMoment.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -750,7 +752,7 @@
 			buildSettings = {
 				BUNDLE_DISPLAY_NAME = "Precious Moment Beta";
 				BUNDLE_IDENTIFIER = com.ccn.PreciousMoment.beta;
-				CODE_SIGN_ENTITLEMENTS = PhotoWheel/PhotoWheel.entitlements;
+				CODE_SIGN_ENTITLEMENTS = PhotoWheel/PreciousMoment.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -819,7 +821,7 @@
 			buildSettings = {
 				BUNDLE_DISPLAY_NAME = "Precious Moment Debug";
 				BUNDLE_IDENTIFIER = com.ccn.PreciousMoment.debug;
-				CODE_SIGN_ENTITLEMENTS = PhotoWheel/PhotoWheel.entitlements;
+				CODE_SIGN_ENTITLEMENTS = PhotoWheel/PreciousMoment.entitlements;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/PhotoWheel/AdditionalLibraries/HockeySDK/Vendor\"",
@@ -842,7 +844,7 @@
 			buildSettings = {
 				BUNDLE_DISPLAY_NAME = "Precious Moment";
 				BUNDLE_IDENTIFIER = com.ccn.PreciousMoment;
-				CODE_SIGN_ENTITLEMENTS = PhotoWheel/PhotoWheel.entitlements;
+				CODE_SIGN_ENTITLEMENTS = PhotoWheel/PreciousMoment.entitlements;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/PhotoWheel/AdditionalLibraries/HockeySDK/Vendor\"",
