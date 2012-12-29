@@ -16,15 +16,15 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "68FA6AD013EEF3BB00E046BD"
                BuildableName = "PhotoWheel.app"
-               BlueprintName = "PhotoWheel"
-               ReferencedContainer = "container:PhotoWheel.xcodeproj">
+               BlueprintName = "PreciousMoment"
+               ReferencedContainer = "container:PreciousMoment.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.GDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "68FA6AD013EEF3BB00E046BD"
             BuildableName = "PhotoWheel.app"
-            BlueprintName = "PhotoWheel"
-            ReferencedContainer = "container:PhotoWheel.xcodeproj">
+            BlueprintName = "PreciousMoment"
+            ReferencedContainer = "container:PreciousMoment.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,8 +53,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "68FA6AD013EEF3BB00E046BD"
             BuildableName = "PhotoWheel.app"
-            BlueprintName = "PhotoWheel"
-            ReferencedContainer = "container:PhotoWheel.xcodeproj">
+            BlueprintName = "PreciousMoment"
+            ReferencedContainer = "container:PreciousMoment.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,8 +71,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "68FA6AD013EEF3BB00E046BD"
             BuildableName = "PhotoWheel.app"
-            BlueprintName = "PhotoWheel"
-            ReferencedContainer = "container:PhotoWheel.xcodeproj">
+            BlueprintName = "PreciousMoment"
+            ReferencedContainer = "container:PreciousMoment.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
@@ -80,7 +80,7 @@
       buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Beta"
+      buildConfiguration = "AppStore"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

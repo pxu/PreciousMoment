@@ -240,14 +240,14 @@
 		68F5ED6F13F6CB020006732C /* PhotoAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoAlbumViewController.m; sourceTree = "<group>"; };
 		68F5ED7113F6CB100006732C /* PhotoAlbumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoAlbumsViewController.h; sourceTree = "<group>"; };
 		68F5ED7213F6CB100006732C /* PhotoAlbumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoAlbumsViewController.m; sourceTree = "<group>"; };
-		68FA6AD113EEF3BB00E046BD /* PhotoWheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoWheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68FA6AD113EEF3BB00E046BD /* PreciousMoment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreciousMoment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68FA6AD513EEF3BB00E046BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		68FA6AD713EEF3BB00E046BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		68FA6AD913EEF3BB00E046BD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		68FA6ADD13EEF3BB00E046BD /* PhotoWheel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoWheel-Info.plist"; sourceTree = "<group>"; };
+		68FA6ADD13EEF3BB00E046BD /* PreciousMoment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PreciousMoment-Info.plist"; sourceTree = "<group>"; };
 		68FA6ADF13EEF3BB00E046BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		68FA6AE113EEF3BB00E046BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		68FA6AE313EEF3BB00E046BD /* PhotoWheel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoWheel-Prefix.pch"; sourceTree = "<group>"; };
+		68FA6AE313EEF3BB00E046BD /* PreciousMoment-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PreciousMoment-Prefix.pch"; sourceTree = "<group>"; };
 		68FA6AE413EEF3BB00E046BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		68FA6AE513EEF3BB00E046BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		68FA6AE813EEF3BB00E046BD /* PhotoWheel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotoWheel.xcdatamodel; sourceTree = "<group>"; };
@@ -406,7 +406,7 @@
 				684F03DF152BAB87000CB64A /* CHANGES.md */,
 				684F03E0152BAB87000CB64A /* LICENSE */,
 				684F03E1152BAB87000CB64A /* README.md */,
-				68FA6ADB13EEF3BB00E046BD /* PhotoWheel */,
+				68FA6ADB13EEF3BB00E046BD /* PreciousMoment */,
 				68FA6AD413EEF3BB00E046BD /* Frameworks */,
 				68FA6AD213EEF3BB00E046BD /* Products */,
 			);
@@ -415,7 +415,7 @@
 		68FA6AD213EEF3BB00E046BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				68FA6AD113EEF3BB00E046BD /* PhotoWheel.app */,
+				68FA6AD113EEF3BB00E046BD /* PreciousMoment.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -436,7 +436,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		68FA6ADB13EEF3BB00E046BD /* PhotoWheel */ = {
+		68FA6ADB13EEF3BB00E046BD /* PreciousMoment */ = {
 			isa = PBXGroup;
 			children = (
 				681DB3BC145314CE00DF0849 /* PhotoWheel.entitlements */,
@@ -500,16 +500,17 @@
 				68FA6ADC13EEF3BB00E046BD /* Supporting Files */,
 				6891948914716E9800F6B58E /* AdditionalLibraries */,
 			);
+			name = PreciousMoment;
 			path = PhotoWheel;
 			sourceTree = "<group>";
 		};
 		68FA6ADC13EEF3BB00E046BD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				68FA6ADD13EEF3BB00E046BD /* PhotoWheel-Info.plist */,
+				68FA6ADD13EEF3BB00E046BD /* PreciousMoment-Info.plist */,
 				68FA6ADE13EEF3BB00E046BD /* InfoPlist.strings */,
 				68FA6AE113EEF3BB00E046BD /* main.m */,
-				68FA6AE313EEF3BB00E046BD /* PhotoWheel-Prefix.pch */,
+				68FA6AE313EEF3BB00E046BD /* PreciousMoment-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -517,9 +518,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		68FA6AD013EEF3BB00E046BD /* PhotoWheel */ = {
+		68FA6AD013EEF3BB00E046BD /* PreciousMoment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68FA6AEC13EEF3BB00E046BD /* Build configuration list for PBXNativeTarget "PhotoWheel" */;
+			buildConfigurationList = 68FA6AEC13EEF3BB00E046BD /* Build configuration list for PBXNativeTarget "PreciousMoment" */;
 			buildPhases = (
 				68FA6ACD13EEF3BB00E046BD /* Sources */,
 				68FA6ACE13EEF3BB00E046BD /* Frameworks */,
@@ -529,9 +530,9 @@
 			);
 			dependencies = (
 			);
-			name = PhotoWheel;
+			name = PreciousMoment;
 			productName = PhotoWheel;
-			productReference = 68FA6AD113EEF3BB00E046BD /* PhotoWheel.app */;
+			productReference = 68FA6AD113EEF3BB00E046BD /* PreciousMoment.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -541,9 +542,9 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
-				ORGANIZATIONNAME = "White Peak Software Inc.";
+				ORGANIZATIONNAME = "CCN Software Inc.";
 			};
-			buildConfigurationList = 68FA6ACB13EEF3BA00E046BD /* Build configuration list for PBXProject "PhotoWheel" */;
+			buildConfigurationList = 68FA6ACB13EEF3BA00E046BD /* Build configuration list for PBXProject "PreciousMoment" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -555,7 +556,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				68FA6AD013EEF3BB00E046BD /* PhotoWheel */,
+				68FA6AD013EEF3BB00E046BD /* PreciousMoment */,
 			);
 		};
 /* End PBXProject section */
@@ -684,6 +685,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_IDENTIFIER = "";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
@@ -703,8 +705,8 @@
 		684F03CF152BA1D5000CB64A /* AppStore */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_DISPLAY_NAME = PhotoWheel;
-				BUNDLE_IDENTIFIER = com.whitepeaksoftware.PhotoWheel;
+				BUNDLE_DISPLAY_NAME = PreciousMoment;
+				BUNDLE_IDENTIFIER = com.ccn.PreciousMoment;
 				CODE_SIGN_ENTITLEMENTS = PhotoWheel/PhotoWheel.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -712,10 +714,11 @@
 					"\"$(SRCROOT)/PhotoWheel/AdditionalLibraries/HockeySDK/Vendor\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PhotoWheel/PhotoWheel-Prefix.pch";
+				GCC_PREFIX_HEADER = "PhotoWheel/PreciousMoment-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "CONFIGURATION_$(CONFIGURATION)";
-				INFOPLIST_FILE = "PhotoWheel/PhotoWheel-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "PhotoWheel/PreciousMoment-Info.plist";
+				New_Setting = "";
+				PRODUCT_NAME = PreciousMoment;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -745,8 +748,8 @@
 		684F03D1152BA1F7000CB64A /* Beta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_DISPLAY_NAME = "PhotoWheel Beta";
-				BUNDLE_IDENTIFIER = com.whitepeaksoftware.PhotoWheel.beta;
+				BUNDLE_DISPLAY_NAME = "Precious Moment Beta";
+				BUNDLE_IDENTIFIER = com.ccn.PreciousMoment.beta;
 				CODE_SIGN_ENTITLEMENTS = PhotoWheel/PhotoWheel.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -754,10 +757,11 @@
 					"\"$(SRCROOT)/PhotoWheel/AdditionalLibraries/HockeySDK/Vendor\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PhotoWheel/PhotoWheel-Prefix.pch";
+				GCC_PREFIX_HEADER = "PhotoWheel/PreciousMoment-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "CONFIGURATION_$(CONFIGURATION)";
-				INFOPLIST_FILE = "PhotoWheel/PhotoWheel-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "PhotoWheel/PreciousMoment-Info.plist";
+				New_Setting = "";
+				PRODUCT_NAME = PreciousMoment;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -813,21 +817,22 @@
 		68FA6AED13EEF3BB00E046BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_DISPLAY_NAME = "PhotoWheel Debug";
-				BUNDLE_IDENTIFIER = com.whitepeaksoftware.PhotoWheel.debug;
+				BUNDLE_DISPLAY_NAME = "Precious Moment Debug";
+				BUNDLE_IDENTIFIER = com.ccn.PreciousMoment.debug;
 				CODE_SIGN_ENTITLEMENTS = PhotoWheel/PhotoWheel.entitlements;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/PhotoWheel/AdditionalLibraries/HockeySDK/Vendor\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PhotoWheel/PhotoWheel-Prefix.pch";
+				GCC_PREFIX_HEADER = "PhotoWheel/PreciousMoment-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"CONFIGURATION_$(CONFIGURATION)",
 				);
-				INFOPLIST_FILE = "PhotoWheel/PhotoWheel-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "PhotoWheel/PreciousMoment-Info.plist";
+				New_Setting = "";
+				PRODUCT_NAME = PreciousMoment;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -835,18 +840,19 @@
 		68FA6AEE13EEF3BB00E046BD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_DISPLAY_NAME = PhotoWheel;
-				BUNDLE_IDENTIFIER = com.whitepeaksoftware.PhotoWheel;
+				BUNDLE_DISPLAY_NAME = "Precious Moment";
+				BUNDLE_IDENTIFIER = com.ccn.PreciousMoment;
 				CODE_SIGN_ENTITLEMENTS = PhotoWheel/PhotoWheel.entitlements;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/PhotoWheel/AdditionalLibraries/HockeySDK/Vendor\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PhotoWheel/PhotoWheel-Prefix.pch";
+				GCC_PREFIX_HEADER = "PhotoWheel/PreciousMoment-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "CONFIGURATION_$(CONFIGURATION)";
-				INFOPLIST_FILE = "PhotoWheel/PhotoWheel-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "PhotoWheel/PreciousMoment-Info.plist";
+				New_Setting = "";
+				PRODUCT_NAME = PreciousMoment;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -854,7 +860,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		68FA6ACB13EEF3BA00E046BD /* Build configuration list for PBXProject "PhotoWheel" */ = {
+		68FA6ACB13EEF3BA00E046BD /* Build configuration list for PBXProject "PreciousMoment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68FA6AEA13EEF3BB00E046BD /* Debug */,
@@ -865,7 +871,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68FA6AEC13EEF3BB00E046BD /* Build configuration list for PBXNativeTarget "PhotoWheel" */ = {
+		68FA6AEC13EEF3BB00E046BD /* Build configuration list for PBXNativeTarget "PreciousMoment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68FA6AED13EEF3BB00E046BD /* Debug */,
